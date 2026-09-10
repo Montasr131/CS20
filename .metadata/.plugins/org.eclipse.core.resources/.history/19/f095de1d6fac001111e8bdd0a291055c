@@ -1,0 +1,48 @@
+
+
+public class Snippet {
+	5. Convert the SI units.
+	a. 1 cm = 10 mm
+	b. 1 m = 1000 mm
+	6. Convert the imperial units to SI units.
+	a. 27 in = ? cm
+	27 × 2.54 = 68.58 cm
+	Answer: 68.6 cm
+	b. 17 ft = ? m
+	17 × 0.3048 = 5.1816 m
+	Answer: 5.2 m
+	c. 8 yd = ? m
+	8 × 0.9144 = 7.3152 m
+	Answer: 7.3 m
+	d. 24 mi = ? km
+	24 × 1.609344 = 38.624256 km
+	Answer: 38.6 km
+	7. Circular model railway track
+	Each track piece is 32 cm long, and there are 12 pieces.
+	a. What distance does the train travel around the inside of the track?
+	12 × 32 = 384 cm
+	Answer: 384 cm
+	b. Find the radius of the inside edge.
+	Formula:
+	C = 2πr
+	Substitute:
+	384 = 2πr
+	r = 384 ÷ 2π
+	r = 61.115… cm
+	Convert to millimetres:
+	61.115 × 10 = 611.15 mm
+	Rounded to the nearest millimetre:
+	Answer: 611 mm
+	8. Lake depths
+	The depth of Lake Baikal is 5369 ft. Great Slave Lake is 2015 ft deep, and Quesnel Lake is 506 m deep.
+	9. Ratio of Quesnel Lake : Lake Baikal
+	First, I need to change Lake Baikal from feet to metres.
+	5369 × 0.3048 = 1636.4712 m
+	Now compare the two depths:
+	506 : 1636.4712
+	Divide both numbers by 1636.4712:
+	0.3092 : 1
+	Rounded:
+	Answer: 0.31 : 1
+	
+}

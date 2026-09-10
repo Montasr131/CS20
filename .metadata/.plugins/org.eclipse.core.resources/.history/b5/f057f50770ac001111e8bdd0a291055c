@@ -1,0 +1,62 @@
+
+
+public class Snippet {
+	USING PRIME FACTORIZATION TO FIND CUBE ROOTS
+	Prime factorization can be used to find a cube root by putting the same prime factors into groups of three.
+	For example:
+	216 = 2 × 2 × 2 × 3 × 3 × 3
+	Make groups of three:
+	(2 × 2 × 2) × (3 × 3 × 3)
+	Take one number from each group:
+	2 × 3 = 6
+	Therefore:
+	∛216 = 6
+	Answer: The cube root of 216 is 6.
+	IS 216 A PERFECT SQUARE OR CUBE?
+	First, find the prime factorization.
+	216 = 2 × 2 × 2 × 3 × 3 × 3
+	Or:
+	216 = 2³ × 3³
+	The factors can be put into groups of three, so 216 is a perfect cube.
+	Check:
+	6 × 6 × 6 = 216
+	It cannot be put into equal groups of two, so it is not a perfect square.
+	Answer: 216 is a perfect cube only.
+	EVALUATE √576 USING PRIME FACTORIZATION
+	First, find the prime factorization.
+	576 = 2 × 2 × 2 × 2 × 2 × 2 × 3 × 3
+	Group the factors into pairs:
+	(2 × 2) (2 × 2) (2 × 2) (3 × 3)
+	Take one number from each pair:
+	2 × 2 × 2 × 3
+	= 8 × 3
+	= 24
+	Therefore:
+	√576 = 24
+	Check:
+	24 × 24 = 576
+	Answer: √576 = 24
+	PRIME FACTORIZATION OF THE PERFECT SQUARES
+	36:
+	36 = 2 × 2 × 3 × 3
+	36 = 2² × 3²
+	Answer: 2² × 3²
+	625:
+	625 = 5 × 5 × 5 × 5
+	625 = 5⁴
+	Answer: 5⁴
+	SQUARE ROOTS AND PRIME FACTORIZATION
+	36:
+	√36 = 6
+	Prime factorization of 6:
+	6 = 2 × 3
+	Answer: √36 = 6
+	Prime factorization: 2 × 3
+	625:
+	√625 = 25
+	Prime factorization of 25:
+	25 = 5 × 5
+	Answer: √625 = 25
+	Prime factorization: 5²
+	
+}
