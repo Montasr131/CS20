@@ -1,0 +1,20 @@
+public class Rectangle {
+
+    public static void main(String[] args) {
+
+        // Create the rectangle's length and width
+        double length = 10;
+        double width = 5;
+
+        // Calculate area
+        double area = length * width;
+
+        // Calculate perimeter
+        double perimeter = 2 * (length + width);
+
+        System.out.println("Length: " + length);
+        System.out.println("Width: " + width);
+        System.out.println("Area: " + area);
+        System.out.println("Perimeter: " + perimeter);
+    }
+}
