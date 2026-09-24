@@ -23,7 +23,7 @@ public class TimeConversion {
 
         // Display the result
         System.out.println("The time is " + hours + ":" + minutes);
-
+        
         input.close();
     }
 }

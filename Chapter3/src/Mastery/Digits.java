@@ -22,7 +22,7 @@ public class Digits {
         int hundreds = number / 100;
         int tens = (number / 10) % 10;
         int ones = number % 10;
-
+        
         // Display the results
         System.out.println("The hundreds-place digit is: " + hundreds);
         System.out.println("The tens-place digit is: " + tens);
