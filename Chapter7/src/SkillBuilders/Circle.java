@@ -1,51 +1,44 @@
 package SkillBuilders;
+
 public class Circle
 {
     private double radius;
 
-    // Default constructor
     public Circle()
     {
         radius = 1.0;
     }
 
-    // Overloaded constructor
     public Circle(double r)
     {
         radius = r;
     }
 
-    // Set radius
     public void setRadius(double r)
     {
         radius = r;
     }
 
-    // Get radius
     public double getRadius()
     {
         return radius;
     }
 
-    // Calculate area
     public double area()
     {
         return Math.PI * radius * radius;
     }
 
-    // Calculate circumference
     public double circumference()
     {
         return 2 * Math.PI * radius;
     }
 
-    // Display area formula
     public static void displayAreaFormula()
     {
         System.out.println("Area = PI * radius * radius");
     }
 
-    // Override equals method
     @Override
     public boolean equals(Object obj)
     {
@@ -54,14 +47,34 @@ public class Circle
             Circle other = (Circle) obj;
             return Double.compare(radius, other.radius) == 0;
         }
-
         return false;
     }
 
-    // Override toString method
     @Override
     public String toString()
     {
         return "Circle has radius " + radius;
+    }
+
+    public static void main(String[] args)
+    {
+        Circle circle1 = new Circle();
+        Circle circle2 = new Circle(3.0);
+        Circle circle3 = new Circle(4.0);
+        Circle circle4 = new Circle(3.0);
+
+        System.out.println(circle2);
+        System.out.println(circle3);
+
+        displayAreaFormula();
+
+        System.out.println("Area: " + circle2.area());
+        System.out.println("Circumference: " + circle2.circumference());
+
+        System.out.println("Circle 2 equals Circle 4: " +
+                           circle2.equals(circle4));
+
+        System.out.println("Circle 2 equals Circle 3: " +
+                           circle2.equals(circle3));
     }
 }
